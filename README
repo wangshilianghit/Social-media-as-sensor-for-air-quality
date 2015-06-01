@@ -1,0 +1,11 @@
+sample_message.py: Get the sample messages for annotation.  
+compare_csv.py: Compare the results for Peter and Angie's annotations.  
+count_all_messages.py: Count the number of Weibo messages for each year, and the number of Weibo users. 
+count_health_messages.py: Count the number of health related messages for each year. 
+count_topics.py: Count the number of messages each month for given topics. 
+
+./sample_messages.py -a ldaall100_1000.txt.assign -l ldaall.txt -t other.txt
+./count_all_messages.py -i /home/mpaul/data/weibo/2013/12/post*
+./count_health_messages.py -i ldaall.txt
+./count_topics.py -a ldaall100_1000.txt.assign -l ldaall.txt -t posts_12_all_geo_ver.txt
+
